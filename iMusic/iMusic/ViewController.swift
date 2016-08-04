@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var lblTest: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +22,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func txtTest_Action(txtTest: UITextField) {
+        lblTest.text = "Hi \(txtTest.text)"
+    }
 }
 
