@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func txtTest_Action(txtTest: UITextField) {
-        lblTest.text = "Hi \(txtTest.text)"
+        lblTest.text = "Hi "+txtTest.text!
     }
 }
 
