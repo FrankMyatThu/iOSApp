@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BCE525121D53456D00DBEDA6"
-               BuildableName = "iMusic.app"
-               BlueprintName = "iMusic"
-               ReferencedContainer = "container:iMusic.xcodeproj">
+               BlueprintIdentifier = "BC1A12DE1D5B034800989635"
+               BuildableName = "Ninzimay.app"
+               BlueprintName = "Ninzimay"
+               ReferencedContainer = "container:Ninzimay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BCE525121D53456D00DBEDA6"
-            BuildableName = "iMusic.app"
-            BlueprintName = "iMusic"
-            ReferencedContainer = "container:iMusic.xcodeproj">
+            BlueprintIdentifier = "BC1A12DE1D5B034800989635"
+            BuildableName = "Ninzimay.app"
+            BlueprintName = "Ninzimay"
+            ReferencedContainer = "container:Ninzimay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BCE525121D53456D00DBEDA6"
-            BuildableName = "iMusic.app"
-            BlueprintName = "iMusic"
-            ReferencedContainer = "container:iMusic.xcodeproj">
+            BlueprintIdentifier = "BC1A12DE1D5B034800989635"
+            BuildableName = "Ninzimay.app"
+            BlueprintName = "Ninzimay"
+            ReferencedContainer = "container:Ninzimay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BCE525121D53456D00DBEDA6"
-            BuildableName = "iMusic.app"
-            BlueprintName = "iMusic"
-            ReferencedContainer = "container:iMusic.xcodeproj">
+            BlueprintIdentifier = "BC1A12DE1D5B034800989635"
+            BuildableName = "Ninzimay.app"
+            BlueprintName = "Ninzimay"
+            ReferencedContainer = "container:Ninzimay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

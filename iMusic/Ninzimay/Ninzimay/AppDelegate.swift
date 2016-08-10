@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  iMusic
+//  Ninzimay
 //
-//  Created by Myat Thu on 4/8/16.
+//  Created by Myat Thu on 10/8/16.
 //  Copyright © 2016 Ninzimay. All rights reserved.
 //
 

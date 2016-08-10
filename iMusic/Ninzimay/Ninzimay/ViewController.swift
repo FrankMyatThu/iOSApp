@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  iMusic
+//  Ninzimay
 //
-//  Created by Myat Thu on 4/8/16.
+//  Created by Myat Thu on 10/8/16.
 //  Copyright © 2016 Ninzimay. All rights reserved.
 //
 
@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var lblTest: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,8 +21,5 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func txtTest_Action(txtTest: UITextField) {
-        lblTest.text = "Hi "+txtTest.text!
-    }
 }
 
