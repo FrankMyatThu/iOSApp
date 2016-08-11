@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -21,22 +22,32 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background_1" translatesAutoresizingMaskIntoConstraints="NO" id="6JJ-D0-m7U">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sOU-6h-mA7">
-                                <rect key="frame" x="0.0" y="473" width="320" height="95"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sOU-6h-mA7">
+                                <rect key="frame" x="0.0" y="473" width="328" height="97"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sd8-xP-rQ3">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sd8-xP-rQ3">
+                                        <rect key="frame" x="0.0" y="0.0" width="328" height="97"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.82214095744680848" colorSpace="calibratedRGB"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="sd8-xP-rQ3" secondAttribute="bottom" id="c03-KT-7Br"/>
+                                    <constraint firstAttribute="width" secondItem="sOU-6h-mA7" secondAttribute="height" multiplier="64:19" id="faw-74-Ka6"/>
+                                    <constraint firstAttribute="trailing" secondItem="sd8-xP-rQ3" secondAttribute="trailing" id="kRh-U2-KK3"/>
+                                    <constraint firstItem="sd8-xP-rQ3" firstAttribute="leading" secondItem="sOU-6h-mA7" secondAttribute="leading" id="tfR-PA-jNw"/>
+                                    <constraint firstItem="sd8-xP-rQ3" firstAttribute="top" secondItem="sOU-6h-mA7" secondAttribute="top" id="zle-OU-bYP"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="6JJ-D0-m7U" secondAttribute="trailing" constant="-20" id="7ch-Ew-SyR"/>
+                            <constraint firstItem="sOU-6h-mA7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Zkz-US-1FP"/>
                             <constraint firstItem="6JJ-D0-m7U" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="aGc-sU-vRv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sOU-6h-mA7" secondAttribute="trailing" constant="-20" id="b2I-Qd-AQA"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6JJ-D0-m7U" secondAttribute="bottom" id="cfb-LE-l7k"/>
                             <constraint firstItem="6JJ-D0-m7U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="peL-Oe-lKF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sOU-6h-mA7" secondAttribute="bottom" id="veQ-8w-SGu"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
