@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Ninzimay
 //
-//  Created by Myat Thu on 10/8/16.
+//  Created by Myat Thu on 16/8/16.
 //  Copyright © 2016 Ninzimay. All rights reserved.
 //
 

@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC1A12E31D5B034800989635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1A12E21D5B034800989635 /* AppDelegate.swift */; };
-		BC1A12E51D5B034800989635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1A12E41D5B034800989635 /* ViewController.swift */; };
-		BC1A12E81D5B034800989635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1A12E61D5B034800989635 /* Main.storyboard */; };
-		BC1A12EA1D5B034800989635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1A12E91D5B034800989635 /* Assets.xcassets */; };
-		BC1A12ED1D5B034800989635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1A12EB1D5B034800989635 /* LaunchScreen.storyboard */; };
+		BCE153C11D62F954009B800D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE153C01D62F954009B800D /* AppDelegate.swift */; };
+		BCE153C31D62F954009B800D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE153C21D62F954009B800D /* ViewController.swift */; };
+		BCE153C61D62F954009B800D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE153C41D62F954009B800D /* Main.storyboard */; };
+		BCE153C81D62F954009B800D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE153C71D62F954009B800D /* Assets.xcassets */; };
+		BCE153CB1D62F954009B800D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE153C91D62F954009B800D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BC1A12DF1D5B034800989635 /* Ninzimay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ninzimay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC1A12E21D5B034800989635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC1A12E41D5B034800989635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC1A12E71D5B034800989635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC1A12E91D5B034800989635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC1A12EC1D5B034800989635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BC1A12EE1D5B034800989635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE153BD1D62F953009B800D /* Ninzimay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ninzimay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE153C01D62F954009B800D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCE153C21D62F954009B800D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCE153C51D62F954009B800D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCE153C71D62F954009B800D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE153CA1D62F954009B800D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE153CC1D62F954009B800D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC1A12DC1D5B034800989635 /* Frameworks */ = {
+		BCE153BA1D62F953009B800D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BC1A12D61D5B034800989635 = {
+		BCE153B41D62F953009B800D = {
 			isa = PBXGroup;
 			children = (
-				BC1A12E11D5B034800989635 /* Ninzimay */,
-				BC1A12E01D5B034800989635 /* Products */,
+				BCE153BF1D62F953009B800D /* Ninzimay */,
+				BCE153BE1D62F953009B800D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BC1A12E01D5B034800989635 /* Products */ = {
+		BCE153BE1D62F953009B800D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC1A12DF1D5B034800989635 /* Ninzimay.app */,
+				BCE153BD1D62F953009B800D /* Ninzimay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC1A12E11D5B034800989635 /* Ninzimay */ = {
+		BCE153BF1D62F953009B800D /* Ninzimay */ = {
 			isa = PBXGroup;
 			children = (
-				BC1A12E21D5B034800989635 /* AppDelegate.swift */,
-				BC1A12E41D5B034800989635 /* ViewController.swift */,
-				BC1A12E61D5B034800989635 /* Main.storyboard */,
-				BC1A12E91D5B034800989635 /* Assets.xcassets */,
-				BC1A12EB1D5B034800989635 /* LaunchScreen.storyboard */,
-				BC1A12EE1D5B034800989635 /* Info.plist */,
+				BCE153C01D62F954009B800D /* AppDelegate.swift */,
+				BCE153C21D62F954009B800D /* ViewController.swift */,
+				BCE153C41D62F954009B800D /* Main.storyboard */,
+				BCE153C71D62F954009B800D /* Assets.xcassets */,
+				BCE153C91D62F954009B800D /* LaunchScreen.storyboard */,
+				BCE153CC1D62F954009B800D /* Info.plist */,
 			);
 			path = Ninzimay;
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC1A12DE1D5B034800989635 /* Ninzimay */ = {
+		BCE153BC1D62F953009B800D /* Ninzimay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC1A12F11D5B034800989635 /* Build configuration list for PBXNativeTarget "Ninzimay" */;
+			buildConfigurationList = BCE153CF1D62F954009B800D /* Build configuration list for PBXNativeTarget "Ninzimay" */;
 			buildPhases = (
-				BC1A12DB1D5B034800989635 /* Sources */,
-				BC1A12DC1D5B034800989635 /* Frameworks */,
-				BC1A12DD1D5B034800989635 /* Resources */,
+				BCE153B91D62F953009B800D /* Sources */,
+				BCE153BA1D62F953009B800D /* Frameworks */,
+				BCE153BB1D62F953009B800D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +81,25 @@
 			);
 			name = Ninzimay;
 			productName = Ninzimay;
-			productReference = BC1A12DF1D5B034800989635 /* Ninzimay.app */;
+			productReference = BCE153BD1D62F953009B800D /* Ninzimay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BC1A12D71D5B034800989635 /* Project object */ = {
+		BCE153B51D62F953009B800D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Ninzimay;
 				TargetAttributes = {
-					BC1A12DE1D5B034800989635 = {
+					BCE153BC1D62F953009B800D = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 5N2C9653W3;
 					};
 				};
 			};
-			buildConfigurationList = BC1A12DA1D5B034800989635 /* Build configuration list for PBXProject "Ninzimay" */;
+			buildConfigurationList = BCE153B81D62F953009B800D /* Build configuration list for PBXProject "Ninzimay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = BC1A12D61D5B034800989635;
-			productRefGroup = BC1A12E01D5B034800989635 /* Products */;
+			mainGroup = BCE153B41D62F953009B800D;
+			productRefGroup = BCE153BE1D62F953009B800D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC1A12DE1D5B034800989635 /* Ninzimay */,
+				BCE153BC1D62F953009B800D /* Ninzimay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BC1A12DD1D5B034800989635 /* Resources */ = {
+		BCE153BB1D62F953009B800D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC1A12ED1D5B034800989635 /* LaunchScreen.storyboard in Resources */,
-				BC1A12EA1D5B034800989635 /* Assets.xcassets in Resources */,
-				BC1A12E81D5B034800989635 /* Main.storyboard in Resources */,
+				BCE153CB1D62F954009B800D /* LaunchScreen.storyboard in Resources */,
+				BCE153C81D62F954009B800D /* Assets.xcassets in Resources */,
+				BCE153C61D62F954009B800D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC1A12DB1D5B034800989635 /* Sources */ = {
+		BCE153B91D62F953009B800D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC1A12E51D5B034800989635 /* ViewController.swift in Sources */,
-				BC1A12E31D5B034800989635 /* AppDelegate.swift in Sources */,
+				BCE153C31D62F954009B800D /* ViewController.swift in Sources */,
+				BCE153C11D62F954009B800D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC1A12E61D5B034800989635 /* Main.storyboard */ = {
+		BCE153C41D62F954009B800D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BC1A12E71D5B034800989635 /* Base */,
+				BCE153C51D62F954009B800D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BC1A12EB1D5B034800989635 /* LaunchScreen.storyboard */ = {
+		BCE153C91D62F954009B800D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BC1A12EC1D5B034800989635 /* Base */,
+				BCE153CA1D62F954009B800D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BC1A12EF1D5B034800989635 /* Debug */ = {
+		BCE153CD1D62F954009B800D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		BC1A12F01D5B034800989635 /* Release */ = {
+		BCE153CE1D62F954009B800D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,57 +247,51 @@
 			};
 			name = Release;
 		};
-		BC1A12F21D5B034800989635 /* Debug */ = {
+		BCE153D01D62F954009B800D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ninzimay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ninzimay.Ninzimay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		BC1A12F31D5B034800989635 /* Release */ = {
+		BCE153D11D62F954009B800D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ninzimay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ninzimay.Ninzimay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC1A12DA1D5B034800989635 /* Build configuration list for PBXProject "Ninzimay" */ = {
+		BCE153B81D62F953009B800D /* Build configuration list for PBXProject "Ninzimay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC1A12EF1D5B034800989635 /* Debug */,
-				BC1A12F01D5B034800989635 /* Release */,
+				BCE153CD1D62F954009B800D /* Debug */,
+				BCE153CE1D62F954009B800D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC1A12F11D5B034800989635 /* Build configuration list for PBXNativeTarget "Ninzimay" */ = {
+		BCE153CF1D62F954009B800D /* Build configuration list for PBXNativeTarget "Ninzimay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC1A12F21D5B034800989635 /* Debug */,
-				BC1A12F31D5B034800989635 /* Release */,
+				BCE153D01D62F954009B800D /* Debug */,
+				BCE153D11D62F954009B800D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BC1A12D71D5B034800989635 /* Project object */;
+	rootObject = BCE153B51D62F953009B800D /* Project object */;
 }
