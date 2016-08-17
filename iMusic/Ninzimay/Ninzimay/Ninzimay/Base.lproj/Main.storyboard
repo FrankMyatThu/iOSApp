@@ -16,11 +16,61 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1" translatesAutoresizingMaskIntoConstraints="NO" id="QGa-Gq-XDN" userLabel="imgBackground">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZJl-Yf-hCW" userLabel="TopLayer">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="128"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BfK-zF-AGj" userLabel="MiddleLayer">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.99222642183303833" green="0.95138329267501831" blue="0.012370306998491287" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="127" width="400" height="170"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dlj-JH-tgQ" userLabel="BottomLayer">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.72376440602836878" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="295" width="400" height="128"/>
+                                </variation>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="QGa-Gq-XDN" secondAttribute="bottom" id="CLe-13-rCx"/>
+                            <constraint firstItem="QGa-Gq-XDN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="G9A-UI-pHR"/>
+                            <constraint firstAttribute="trailing" secondItem="QGa-Gq-XDN" secondAttribute="trailing" id="fJi-nq-XDn"/>
+                            <constraint firstItem="QGa-Gq-XDN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lSa-Ad-1XH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ZJl-Yf-hCW"/>
+                                <exclude reference="BfK-zF-AGj"/>
+                                <exclude reference="Dlj-JH-tgQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ZJl-Yf-hCW"/>
+                                <include reference="BfK-zF-AGj"/>
+                                <include reference="Dlj-JH-tgQ"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="288" y="294.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background_1" width="1067" height="1334"/>
+    </resources>
 </document>
